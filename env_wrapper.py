@@ -15,7 +15,7 @@ class DIAYN_Skill_Wrapper(Wrapper):
         Wrapper.__init__(self, env)
         self.num_skills = num_skills
         self.state_size = env.observation_space.shape[0]
-        self.hidden_size = 10
+        self.hidden_size = 128
         
         # discriminator負責state到skill的映射
         self.discriminator = NN(input_dim = self.state_size, 

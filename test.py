@@ -12,7 +12,7 @@ class DIAYN_Skill_Wrapper_test(DIAYN_Skill_Wrapper):
 
 model = SAC.load("sac_Walker2DMuJoCoEnv-v0.zip")
 env = gym.make('Walker2DMuJoCoEnv-v0')
-env = DIAYN_Skill_Wrapper_test(env,num_skills=2)
+env = DIAYN_Skill_Wrapper(env,num_skills=100)
 env.render(mode='human')
 obs = env.reset()
 
