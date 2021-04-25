@@ -2,4 +2,4 @@
 DIAYN
 
 
-![image](https://github.com/skywalker0803r/pybullet_playground/blob/main/gif/Peek%202021-03-29%2012-42.gif)
+![image](https://github.com/skywalker0803r/DIAYN/blob/main/img/%E5%B0%8F%E4%BA%BA.gif)
